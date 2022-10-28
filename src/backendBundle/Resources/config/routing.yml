@@ -1,0 +1,7 @@
+backend_homepage:
+    path:     /
+    defaults: { _controller: backendBundle:Default:index }
+    
+app_json:
+    path: /json
+    defaults: { _controller: backendBundle:Default:json }
